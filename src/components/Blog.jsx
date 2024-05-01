@@ -5,20 +5,20 @@ export const Blog = () => {
     {
       id: 1,
       title: "Creating Streamlined Safeguarding Processes with OneRen",
-      image: "/src/assets/blog1.png",
+      image: "/blog1.png",
       link:'/model1',
     },
     {
       id: 2,
       title:
         "What are your safeguarding responsibilities and how can you manage them?",
-      image: "./../../src/assets/blog2.png",
+      image: "/blog2.png",
       link:'/model2',
     },
     {
       id: 3,
       title: "Revamping the Membership Model with Triathlon Australia",
-      image: "../../src/assets/blog3.png",
+      image: "/blog3.png",
       link:'/model3',
     },
   ];

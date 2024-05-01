@@ -6,8 +6,6 @@ import XrGallery from "./XrGallery";
 import { Environment } from "@react-three/drei";
 import Interface from "./Interface";
 import { Suspense,useRef } from "react";
-import {PerspectiveCamera} from '@react-three/drei'
-import {useThree} from '@react-three/fiber'
 const XrGalleryContainer = () => {
   const [overlayContent, setOverlayContent] = useState(null);
   let interfaceRef = useCallback((node) => {
@@ -15,23 +13,8 @@ const XrGalleryContainer = () => {
       setOverlayContent(node);
     }
   });
-  const cameraRef = useRef();
 
-  const handlePrev = () => {
-    if (cameraRef.current) {
-      cameraRef.current.position.x -= 0;
-      cameraRef.current.position.y -= 0;
-      cameraRef.current.position.z -= -1;
-    }
-  };
-
-  const handleNext = () => {
-    if (cameraRef.current) {
-      cameraRef.current.position.x += 0;
-      cameraRef.current.position.y += 0;
-      cameraRef.current.position.z += -1.3;
-    }
-  };
+  
 
   return (
     <CharacterAnimationsProvider >
@@ -46,11 +29,7 @@ const XrGalleryContainer = () => {
       />
 
       <Canvas style={{ touchAction: "none" }}>
-      <PerspectiveCamera
-        makeDefault
-        position={[0,0,5]}
-        ref={cameraRef}
-      />
+     
         <ambientLight intensity={1} />
         
         <XR>
@@ -60,10 +39,7 @@ const XrGalleryContainer = () => {
         </XR>
         <Environment preset="sunset" />
       </Canvas>
-      <div>
-        <button onClick={handlePrev}>Prev</button>
-        <button onClick={handleNext}>Next</button>
-      </div>
+      
     </CharacterAnimationsProvider>
   );
 };

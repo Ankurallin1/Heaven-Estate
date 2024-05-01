@@ -1,10 +1,9 @@
 import { Carousel } from "flowbite-react";
 import React from "react";
-import { BiLogoPlayStore } from "react-icons/bi";
-import { FaAppStoreIos } from "react-icons/fa";
 import banner1 from "../assets/banner1.png";
 import banner2 from "../assets/banner2.png";
 import banner3 from "../assets/banner3.png";
+import { IoLogoAndroid } from "react-icons/io";
 
 export const Home = () => {
   return (
@@ -24,15 +23,14 @@ export const Home = () => {
                   </span>
                 </h1>
                 <p className="text-neutralGrey text-base mb-8 text-center md:text-left">
-                Are you interested in exploring properties virtually through AR and 3D visualization?
+                  Are you interested in exploring properties virtually through AR and 3D visualization?
                 </p>
                 <div className="flex justify-center items-center gap-4">
-                  <button className="btn-primary">
-                    <span className="flex">Download <BiLogoPlayStore size={'20px'} className="my-1" /></span>
-                  </button>
-                  <button className="btn-primary">
-                    <span className="flex">Download <FaAppStoreIos size={'20px'} className="my-1" /></span>
-                  </button>
+                  <a href="https://drive.google.com/file/d/1Ebyagq96SyC4Igm-JuJKryd2SuDsIK6G/view" target="_blank" rel="noopener noreferrer">
+                    <button className="btn-primary">
+                      <span className="flex">Download <IoLogoAndroid size={'20px'} className="my-1" /></span>
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -49,15 +47,14 @@ export const Home = () => {
                   </span>
                 </h1>
                 <p className="text-neutralGrey text-base mb-8 text-center md:text-left">
-                Have you experience AR or 3D in real estate?
+                  Have you experience AR or 3D in real estate?
                 </p>
                 <div className="flex justify-center items-center gap-4">
-                  <button className="btn-primary">
-                    <span className="flex">Download <BiLogoPlayStore size={'20px'} className="my-1" /></span>
-                  </button>
-                  <button className="btn-primary">
-                    <span className="flex">Download <FaAppStoreIos size={'20px'} className="my-1" /></span>
-                  </button>
+                  <a href="https://drive.google.com/file/d/1Ebyagq96SyC4Igm-JuJKryd2SuDsIK6G/view" target="_blank" rel="noopener noreferrer">
+                    <button className="btn-primary">
+                      <span className="flex">Download <IoLogoAndroid size={'20px'} className="my-1" /></span>
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
@@ -77,12 +74,11 @@ export const Home = () => {
                   Take a demo right now
                 </p>
                 <div className="flex justify-center items-center gap-4">
-                  <button className="btn-primary">
-                    <span className="flex">Download <BiLogoPlayStore size={'20px'} className="my-1" /></span>
-                  </button>
-                  <button className="btn-primary">
-                    <span className="flex">Download <FaAppStoreIos size={'20px'} className="my-1" /></span>
-                  </button>
+                  <a href="https://drive.google.com/file/d/1Ebyagq96SyC4Igm-JuJKryd2SuDsIK6G/view" target="_blank" rel="noopener noreferrer">
+                    <button className="btn-primary">
+                      <span className="flex">Download <IoLogoAndroid size={'20px'} className="my-1" /></span>
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
