@@ -26,7 +26,7 @@ export const Home = () => {
                   Are you interested in exploring properties virtually through AR and 3D visualization?
                 </p>
                 <div className="flex justify-center items-center gap-4">
-                  <a href="https://drive.google.com/file/d/1Ebyagq96SyC4Igm-JuJKryd2SuDsIK6G/view" target="_blank" rel="noopener noreferrer">
+                  <a href="https://drive.google.com/file/d/1Enq6YNIY_LmEWcNXfTMuDvY7mtU7HZb1/view" target="_blank" rel="noopener noreferrer">
                     <button className="btn-primary">
                       <span className="flex">Download <IoLogoAndroid size={'20px'} className="my-1" /></span>
                     </button>
@@ -50,7 +50,7 @@ export const Home = () => {
                   Have you experience AR or 3D in real estate?
                 </p>
                 <div className="flex justify-center items-center gap-4">
-                  <a href="https://drive.google.com/file/d/1Ebyagq96SyC4Igm-JuJKryd2SuDsIK6G/view" target="_blank" rel="noopener noreferrer">
+                  <a href="https://drive.google.com/file/d/1Enq6YNIY_LmEWcNXfTMuDvY7mtU7HZb1/view" target="_blank" rel="noopener noreferrer">
                     <button className="btn-primary">
                       <span className="flex">Download <IoLogoAndroid size={'20px'} className="my-1" /></span>
                     </button>
@@ -74,7 +74,7 @@ export const Home = () => {
                   Take a demo right now
                 </p>
                 <div className="flex justify-center items-center gap-4">
-                  <a href="https://drive.google.com/file/d/1Ebyagq96SyC4Igm-JuJKryd2SuDsIK6G/view" target="_blank" rel="noopener noreferrer">
+                  <a href="https://drive.google.com/file/d/1Enq6YNIY_LmEWcNXfTMuDvY7mtU7HZb1/view" target="_blank" rel="noopener noreferrer">
                     <button className="btn-primary">
                       <span className="flex">Download <IoLogoAndroid size={'20px'} className="my-1" /></span>
                     </button>
