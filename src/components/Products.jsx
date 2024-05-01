@@ -23,15 +23,7 @@ export const Products = () => {
               What we offer?
             </h2>
             <p className="md:w-3/4 text-sm text-neutralDGrey mb-8">
-              Donec a eros justo. Fusce egestas tristique ultrices. Nam tempor,
-              augue nec tincidunt molestie, massa nunc varius arcu, at
-              scelerisque elit erat a magna. Donec quis erat at libero ultrices
-              mollis. In hac habitasse platea dictumst. Vivamus vehicula leo
-              dui, at porta nisi facilisis finibus. In euismod augue vitae nisi
-              ultricies, non aliquet urna tincidunt. Integer in nisi eget nulla
-              commodo faucibus efficitur quis massa. Praesent felis est, finibus
-              et nisi ac, hendrerit venenatis libero. Donec consectetur faucibus
-              ipsum id gravida.
+            At Heaven Estate, we offer Real Estate Builders and Architects a comprehensive platform designed to enhance their client catering journey. From streamlined project management tools to immersive augmented reality features, we provide the tools and technologies necessary to transform dreams into reality. With our platform, professionals can efficiently showcase property designs, collaborate remotely with clients, and ensure seamless project delivery. Elevate your client experience and exceed expectations with Heaven Estate.
             </p>
             <button className="btn-primary">Learn More</button>
           </div>
